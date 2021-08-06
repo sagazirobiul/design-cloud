@@ -1,0 +1,47 @@
+.products {
+    background-color: #F4F7FC;
+    padding: 6rem 0;
+}
+
+.productCard {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.pdInfo {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.pdInfo h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.pdInfo p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.productCard img {
+    width: 100%;
+}
+
+.productCard button {
+    outline: none;
+    border: 2px solid #b1b1b1;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.4rem 1.5rem;
+    background-color: #fff;
+    color: rgb(10, 10, 77);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.productCard button:hover {
+    border: 2px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}

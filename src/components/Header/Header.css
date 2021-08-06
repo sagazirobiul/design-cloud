@@ -1,0 +1,47 @@
+.header {
+    background-image: url('../../Images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.shopBox {
+    background-color: rgba(10, 10, 77, 0.38);
+    text-align: center;
+    max-width: 550px;
+    margin: 7rem auto;
+    border-radius: 0.8rem;
+    padding: 3rem;
+}
+
+.shopBox h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.shopBox p {
+    font-size: 1.2rem;
+    color: #eeeeee;
+    margin: 1.3rem 0;
+    font-weight: normal;
+}
+
+.branBtn {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: linear-gradient(to right, #ff8fab, #ff8565);
+    padding: 0.4rem 1.5rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.branBtn:hover {
+    background: linear-gradient(to left, #ff8fab, #ff8565);
+}
